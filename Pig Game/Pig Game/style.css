@@ -1,6 +1,4 @@
-/**********************************************
-*** GENERAL
-**********************************************/
+
 
 .final-score {
     position: absolute;
@@ -136,15 +134,13 @@ button {
     text-transform: uppercase;
     cursor: pointer;
     font-weight: 300;
-    transition: background-color 0.3s, color 0.3s;
+    transition: background-color 0.5s, color 0.6s;
 }
 
-button:hover { font-weight: 600; }
+button:hover { font-weight: 600;
+               color:black}
 button:hover i { margin-right: 20px; }
 
-button:focus {
-    outline: none;
-}
 
 i {
     color: #EB4D4D;
@@ -163,7 +159,7 @@ i {
 
 .dice {
     position: absolute;
-    left: 50%;
+    left: 51%;
     top: 178px;
     transform: translateX(-50%);
     height: 100px;
